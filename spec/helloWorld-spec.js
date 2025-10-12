@@ -13,7 +13,7 @@ describe("Hello World Server", function() {
 
     it("returns Hello World", function(done) {
       request.get(base_url, function(error, response, body) {
-        expect(body).toBe("Welcome to Docker!");
+        expect(body).toBe("Welcome to Docker Live Training!");
         done();
 
         server.close();
